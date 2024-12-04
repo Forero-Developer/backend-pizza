@@ -24,7 +24,7 @@ body {
 
 /* Logo */
 .logo {
-    background-image: url('./src/assets/logo.png'); /* Ajusta la ruta */
+    background-image: url('./public/assets/logo.png'); /* Ajusta la ruta */
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;

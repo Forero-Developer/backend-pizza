@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTrash } from '@fortawesome/free-solid-svg-icons';
 
 const CardMenu = ({ producto, agregarAlCarrito, eliminarProducto }) => { // Añadimos eliminarProducto
-  const { img = "./src/assets/pizzaaa.jpg", nombre, descripcion, precio, id_producto } = producto;
+  const { img = "./public/assets/pizzaaa.jpg", nombre, descripcion, precio, id_producto } = producto;
 
   return (
     <div className="contenedor-padre">
