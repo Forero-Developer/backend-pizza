@@ -23,7 +23,7 @@ const AuthModal = ({ onClose }) => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const url = isLogin ? 'http://localhost:3000/api/login' : 'http://localhost:3000/api/registro'; // URL de la API
+    const url = isLogin ? 'https://proyecto-pizza-production.up.railway.app/api/login' : 'https://proyecto-pizza-production.up.railway.app/api/registro'; // URL de la API
 
     try {
       const response = await fetch(url, {

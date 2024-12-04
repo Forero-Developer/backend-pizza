@@ -12,7 +12,7 @@ const Menu = () => {
 
   const fetchProductos = async () => {
     try {
-      const response = await fetch('http://localhost:3000/api/productos');
+      const response = await fetch('https://proyecto-pizza-production.up.railway.app/api/productos');
       if (!response.ok) {
         throw new Error('Error al obtener los datos del servidor');
       }
@@ -30,7 +30,7 @@ const Menu = () => {
     try {
       console.log(`Intentando eliminar el producto con ID: ${id}`);  // Verifica que el ID sea correcto
   
-      const response = await fetch(`http://localhost:3000/api/productos/${id}`, {
+      const response = await fetch(`https://proyecto-pizza-production.up.railway.app/api/productos/${id}`, {
         method: 'DELETE',
       });
       console.log(await response.json());
