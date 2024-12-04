@@ -19,7 +19,7 @@ const NavBar = () => {
         <img src={logo} alt="" />
       </div>
       <nav className="navbar">
-        <Link to="/Acerca-de-nostros">Acerca de nosotros</Link>
+        <Link to="/Acerca-de-nostros">Acerca de nuestro Team</Link>
         <Link to="/Menu">Menú</Link>
         <Link to="/contacto">Contacto</Link>
       </nav>
