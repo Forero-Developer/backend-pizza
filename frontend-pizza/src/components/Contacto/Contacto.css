@@ -7,7 +7,7 @@
   flex-direction: column;
   min-height: 100vh; /* Establece la altura mínima en 100% de la pantalla */
   padding: 0;
-  background: linear-gradient(to right, black, transparent), url('./public/assets/NAVINICIO.png');
+  background: linear-gradient(to right, black, transparent), url('./src/assets/assets/NAVINICIO.png');
   background-size: cover;
   background-position: center;
 }

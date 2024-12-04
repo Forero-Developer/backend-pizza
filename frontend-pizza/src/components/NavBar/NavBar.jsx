@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import { useAuth } from "../AuthModal/AuthContext"; // Ajusta la ruta según sea necesario
 import './NavBar.css';
 import AuthModal from '../AuthModal/AuthModal';
+import logo from '../../assets/logo.png'
 
 const NavBar = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -14,7 +15,9 @@ const NavBar = () => {
 
   return (
     <header className="header">
-      <div className="logo"></div>
+      <div className="">
+        <img src={logo} alt="" />
+      </div>
       <nav className="navbar">
         <Link to="/Acerca-de-nostros">Acerca de nosotros</Link>
         <Link to="/Menu">Menú</Link>
