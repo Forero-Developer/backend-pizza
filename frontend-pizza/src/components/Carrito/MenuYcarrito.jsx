@@ -1,4 +1,4 @@
-import Menu from '../cardMenu/menu'; // Importa el componente del menú
+import Menu from '../cardMenu/Menu'; // Importa el componente del menú
 import Carrito from './Carrito'; // Importa el componente del carrito
 
 const MenuYCarrito = () => {
